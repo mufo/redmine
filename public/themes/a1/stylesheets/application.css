@@ -41,6 +41,7 @@ h1, h2, h3, h4 {
 body, #wrapper { 
 	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
 	background: url(../images/bg-grain.png) repeat 0px 0px #F0F0F0;
+	background-attachment: fixed;
 }
 
 #main { background: transparent; margin: 15px 15px 0px 15px; }
@@ -297,7 +298,16 @@ div.contact.details, div.deal.details {
 
 #sidebar h3 {color: #222;}
 
-#footer { background-color:#EEEEEE; border: 0px; }
+#footer {
+	background-color: #EEEEEE;
+	background-color: transparent;
+	border: 0px;
+}
+
+.bgr::before {
+	display: block;
+	content: 'Multiple Foundry．方木資訊';
+}
 
 /* Headers */
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {border-bottom: 0px;}
