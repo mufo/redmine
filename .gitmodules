@@ -1,3 +1,9 @@
 [submodule "repo/ieee-wcet-ntust"]
 	path = repo/ieee-wcet-ntust
 	url = https://Fang-Mu@bitbucket.org/Fang-Mu/ieee-wcet-ntust.git
+[submodule "repo/redmine.this"]
+	path = repo/redmine.this
+	url = https://github.com/mufo/redmine.git
+[submodule "repo/demo.bootstrap"]
+	path = repo/demo.bootstrap
+	url = https://github.com/twitter/bootstrap.git
