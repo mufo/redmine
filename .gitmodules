@@ -1,0 +1,3 @@
+[submodule "repo/ieee-wcet-ntust"]
+	path = repo/ieee-wcet-ntust
+	url = https://Fang-Mu@bitbucket.org/Fang-Mu/ieee-wcet-ntust.git
