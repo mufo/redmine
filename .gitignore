@@ -32,3 +32,5 @@
 /Gemfile.lock
 #/Gemfile.local
 
+.gitmodules
+/repo/*
