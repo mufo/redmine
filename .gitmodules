@@ -4,6 +4,6 @@
 [submodule "plugins/redmine_gist"]
 	path = plugins/redmine_gist
 	url = https://github.com/dergachev/redmine_gist.git
-[submodule "plugins/redmine_timelog_timer"]
-	path = plugins/redmine_timelog_timer
+[submodule "plugins/timelog_timer"]
+	path = plugins/timelog_timer
 	url = https://github.com/behigh/redmine_timelog_timer.git
