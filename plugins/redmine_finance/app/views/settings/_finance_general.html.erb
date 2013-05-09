@@ -1,0 +1,27 @@
+<p>  
+  <label><%= l(:label_finance_default_currency) %></label>
+  <%= select_tag 'settings[finance_default_currency]', options_for_select(all_currencies.insert(0, ['', '']), @settings[:finance_default_currency]) %> 
+</p>
+
+<p>  
+  <label><%= l(:label_finance_show_in_top_menu) %></label>
+  <%= check_box_tag 'settings[show_in_top_menu]', 1, @settings[:show_in_top_menu] %>
+</p>  
+
+<p>  
+  <label><%= l(:label_finance_show_in_app_menu) %></label>
+  <%= check_box_tag 'settings[show_in_app_menu]', 1, @settings[:show_in_app_menu] %>
+</p>  
+
+<!-- <p>  
+  <label><%= l(:label_finance_thousands_delimiter) %></label>
+  <%= select_tag 'settings[finance_thousands_delimiter]',  options_for_select([["9 999", " "], 
+                                                                       ["9,999", ","],
+                                                                       ["9.999", "."]], @settings[:finance_thousands_delimiter]) %>
+</p>
+
+<p>  
+  <label><%= l(:label_finance_decimal_separator) %></label>
+  <%= select_tag 'settings[finance_decimal_separator]',  options_for_select([["0.00", "."], 
+                                                                     ["0,00", ","]], @settings[:finance_decimal_separator]) %>
+</p> -->

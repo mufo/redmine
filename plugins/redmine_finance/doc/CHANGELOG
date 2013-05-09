@@ -1,0 +1,44 @@
+== Redmine Finance plugin changelog
+
+Redmine Finance plugin - accounting plugin for redmine
+Copyright (C) 2011-2013 Kirill Bezrukov
+http://www.redminecrm.com/
+
+== 2013-xx-xx v1.0.3
+
+* Fixed invoices relations
+
+== 2013-04-05 v1.0.2
+
+* New CRM plugin (3.2.1) support
+
+== 2013-02-26 v1.0.1
+
+* Fixed invoices support
+* Fixed money gem requirements 
+
+== 2013-02-25 v1.0.0
+
+* Financial operations
+* Accounts
+* Account watching (email notifications)
+* Comments
+* CSV Import/Export
+* Operation relations
+* Invoices relation
+* Attachments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
