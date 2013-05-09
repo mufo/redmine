@@ -4,10 +4,10 @@
 # Based on file: en.yml
 
 zh:
-  label_issue_checklist_plural: 检查列表
-  field_checklist: 检查列表
-  label_checklist_save_log: 保存检查列表变更到问题日志
-  label_checklist_done_ratio: 设置列表完成比率
-  permission_view_checklists: 查看检查列表
-  permission_done_checklists: 完成检查项
-  permission_edit_checklists: 编辑检查项
+  label_issue_checklist_plural: 待辦事項
+  field_checklist: 待辦事項
+  label_checklist_save_log: 項目更新時儲存到歷史
+  label_checklist_done_ratio: 以列表設定完成比率
+  permission_view_checklists: 查看待辦事項
+  permission_done_checklists: 完成待辦事項
+  permission_edit_checklists: 編輯項目
