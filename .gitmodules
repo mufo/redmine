@@ -1,0 +1,9 @@
+[submodule "plugins/redmine_daily_status"]
+	path = plugins/redmine_daily_status
+	url = https://github.com/gs-lab/redmine_daily_status
+[submodule "plugins/redmine_gist"]
+	path = plugins/redmine_gist
+	url = https://github.com/dergachev/redmine_gist.git
+[submodule "plugins/redmine_timelog_timer"]
+	path = plugins/redmine_timelog_timer
+	url = https://github.com/behigh/redmine_timelog_timer.git
