@@ -7,3 +7,6 @@
 [submodule "plugins/redmine_issue_detailed_tabs_time"]
 	path = plugins/redmine_issue_detailed_tabs_time
 	url = https://github.com/Neson/redmine_issue_detailed_tabs_time.git
+[submodule "plugins/redmine_home_activities"]
+	path = plugins/redmine_home_activities
+	url = https://github.com/Neson/redmine_home_activities.git
