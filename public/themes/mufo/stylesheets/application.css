@@ -507,7 +507,7 @@ div.journal .details {
 	border: 1px solid white;
 }
 
-div.journal > div {
+div.journal > div, .journal > h4 {
 	margin-top: 10px;
 }
 
@@ -553,6 +553,10 @@ table.progress td.done {
 
 #history div.journal {
 	border-top: 1px solid #DDD;
+}
+
+#history > h3 {
+	display: block !important;
 }
 
 /* Modal form*/

@@ -1,9 +1,12 @@
 [submodule "plugins/redmine_daily_status"]
 	path = plugins/redmine_daily_status
-	url = https://github.com/gs-lab/redmine_daily_status
+	url = https://github.com/gs-lab/redmine_daily_status.git
 [submodule "plugins/redmine_gist"]
 	path = plugins/redmine_gist
 	url = https://github.com/dergachev/redmine_gist.git
 [submodule "plugins/timelog_timer"]
 	path = plugins/timelog_timer
 	url = https://github.com/behigh/redmine_timelog_timer.git
+[submodule "plugins/redmine_issue_detailed_tabs_time"]
+	path = plugins/redmine_issue_detailed_tabs_time
+	url = https://github.com/Neson/redmine_issue_detailed_tabs_time.git
