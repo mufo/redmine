@@ -521,12 +521,12 @@ div.journal .details:hover {
 }
 
 #context-menu, #context-menu ul li ul {
-	-webkit-box-shadow: 0 0 3px #CCC;
-	-moz-box-shadow: 0 0 3px #CCC;
-	box-shadow: 0 0 3px #CCC;
+	-webkit-box-shadow: 0 5px 20px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.4);
+	box-shadow: 0 5px 20px rgba(0,0,0,.4);
 }
 
-#context-menu li:hover { border:1px solid #eee !important; background-color:#eee; }
+#context-menu li:hover { border:1px solid #eee !important; background-color:#eee !important; }
 
 #context-menu ul {
 	border-top: 1px solid #DDD;
@@ -851,6 +851,10 @@ span.deal-status a:hover, span.tag a:hover {
 
 /*Contacts*/
 
+div.contact {
+	background: #eef8ff !important;
+}
+
 .small-card td.name h2 {
 	font-size: 16px;
 }
@@ -1081,6 +1085,14 @@ ul.ui-autocomplete {
 
 .ui-autocomplete  .ui-menu .ui-menu-item a {
 	padding: 3px 5px;
+}
+
+#ajax-indicator {
+	font-size: 22px;
+	opacity: 0.9;
+	box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.6);
 }
 
 @media print {
