@@ -1,6 +1,3 @@
-[submodule "plugins/redmine_daily_status"]
-	path = plugins/redmine_daily_status
-	url = https://github.com/gs-lab/redmine_daily_status.git
 [submodule "plugins/redmine_gist"]
 	path = plugins/redmine_gist
 	url = https://github.com/dergachev/redmine_gist.git
