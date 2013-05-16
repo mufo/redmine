@@ -559,6 +559,10 @@ table.progress td.done {
 	display: block !important;
 }
 
+#history .editable {
+	margin-left: 40px;
+}
+
 /* Modal form*/
 
 div.modal h3.title {
